@@ -1,13 +1,31 @@
-import _ from 'lodash';
 import './style.css';
 
-// function component() {
-//     const element = document.createElement('div');
-  
-//     // Lodash, currently included via a script, is required for this line to work
-//     element.innerHTML = _.join(['Hello', 'mustafa'], ' ');
-  
-//     return element;
-//   }
-  
-//   document.body.appendChild(component());
+const listGroup = document.querySelector('.list-group');
+const ListArray = [
+  { id: 1, description: '1111111111111', isCompleted: false },
+  { id: 2, description: '2222222222222', isCompleted: false },
+  { id: 3, description: '3333333333333', isCompleted: false },
+];
+
+function AddListItem() {
+  for (let i = 0; i < ListArray.length; i += 1) {
+    const list = document.createElement('li');
+    const checkBox = document.createElement('input');
+    const span = document.createElement('span');
+    const icon = document.createElement('i');
+    list.classList.add('list-group-item');
+    checkBox.classList.add('form-check-input');
+    checkBox.classList.add('me-1');
+    icon.classList.add('fa');
+    icon.classList.add('fa-ellipsis-v');
+    span.innerHTML = ListArray[i].description;
+    list.appendChild(checkBox);
+    list.appendChild(span);
+    list.appendChild(icon);
+    listGroup.appendChild(list);
+  }
+}
+
+window.addEventListener('load', () => {
+  AddListItem();
+});
