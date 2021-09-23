@@ -2,9 +2,9 @@ import './style.css';
 
 const listGroup = document.querySelector('.list-group');
 const ListArray = [
-  { id: 1, description: '1111111111111', isCompleted: false },
-  { id: 2, description: '2222222222222', isCompleted: false },
-  { id: 3, description: '3333333333333', isCompleted: false },
+  { id: 1, description: 'task number 1', isCompleted: false },
+  { id: 2, description: 'task number 2', isCompleted: false },
+  { id: 3, description: 'task number 3', isCompleted: false },
 ];
 
 function AddListItem() {

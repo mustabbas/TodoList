@@ -38,8 +38,6 @@ a {
 .addRow i {
   position: absolute;
   right: 30px !important;
-
-  /* padding: 5px; */
   bottom: 10px !important;
 }
 
