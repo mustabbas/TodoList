@@ -12,28 +12,27 @@ To Do list
 -  HTML,CSS,JavaScript
 -  Visual Studio Code: A source code editor
 -  git: A tool for managing source code
+-  git: A tool for managing source code
+-  webpack
 
 ## Live Demo
 
-[Live Demo Link](https://mustabbas.github.io/TodoList/)
+[Live Demo Link](https://mustabbas.github.io/TodoList/dist/)
 
 
 ## Getting Started
 
-**If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
+Download the ZIP from this [Link](https://github.com/mustabbas/TodoList), or run the following git command to clone the files to your machine:
 
-Download the ZIP from this location, or run the following git command to clone the files to your machine:
-
-git clone https://github.com/mustabbas/AwesomeBooks
-Once the files are on your machine, open the course folder in Visual Studio Code.
-
-With the files open in Visual Studio Code, press the Go Live button at the bottom of the window to launch the files with Live Server.**
-
-
-To get a local copy up and running follow these simple example steps.
+git clone https://github.com/mustabbas/TodoList.git
+Once the files are on your machine, open the folder in Visual Studio Code.
+Change directory cd into the just created from the project
+To install dependencies use Run npm install
+To start your project use npm run build
 
 ### Prerequisites
-Any modern web browser will do.
+npm.
+A web browser.
 
 ### Setup
 Follow the steps described before.
@@ -47,25 +46,16 @@ Follow the steps described before.
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mustafa-abbas-7555ba10a)
 
 
-👤 **NAKITTO CATHERINE**
-
-- GitHub: [@githubhandle](https://github.com/Cathella)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nakitto-catherine2020/)
-
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/mustabbas/AwesomeBooks/issues).
+Feel free to check the [issues page](https://github.com/mustabbas/TodoList/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- I would like to thank the designer who design this website [Cindy Shin](https://www.behance.net/adagio07) [design guidelines,](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) 
 
 ## 📝 License
 

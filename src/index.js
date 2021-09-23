@@ -12,16 +12,20 @@ function AddListItem() {
     const list = document.createElement('li');
     const checkBox = document.createElement('input');
     const span = document.createElement('span');
+    const move = document.createElement('a');
     const icon = document.createElement('i');
     list.classList.add('list-group-item');
     checkBox.classList.add('form-check-input');
     checkBox.classList.add('me-1');
     icon.classList.add('fa');
     icon.classList.add('fa-ellipsis-v');
+    checkBox.type = 'checkbox';
     span.innerHTML = ListArray[i].description;
+    move.href = '#';
+    move.appendChild(icon);
     list.appendChild(checkBox);
     list.appendChild(span);
-    list.appendChild(icon);
+    list.appendChild(move);
     listGroup.appendChild(list);
   }
 }

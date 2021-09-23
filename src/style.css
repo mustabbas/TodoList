@@ -19,6 +19,10 @@ h1 {
   font-size: 18px;
 }
 
+a {
+  color: black;
+}
+
 .addRow {
   padding: 0;
 }
@@ -44,6 +48,6 @@ h1 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 70px;
+  height: 50px;
   background-color: rgb(220, 215, 215);
 }
