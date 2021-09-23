@@ -1,75 +1,61 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
-
-> One paragraph statement about the project.
+To Do list
+> This project for manage To do list .
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+-  HTML,CSS,JavaScript
+-  Visual Studio Code: A source code editor
+-  git: A tool for managing source code
+-  git: A tool for managing source code
+-  webpack
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://mustabbas.github.io/TodoList/dist/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+Download the ZIP from this [Link](https://github.com/mustabbas/TodoList), or run the following git command to clone the files to your machine:
 
-
-To get a local copy up and running follow these simple example steps.
+git clone https://github.com/mustabbas/TodoList.git
+Once the files are on your machine, open the folder in Visual Studio Code.
+Change directory cd into the just created from the project
+To install dependencies use Run npm install
+To start your project use npm run build
 
 ### Prerequisites
+npm.
+A web browser.
 
 ### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+Follow the steps described before.
 
 
 ## Authors
 
-👤 **Author1**
+👤 **MUSTAFA ABBAS**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/mustabbas)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mustafa-abbas-7555ba10a)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/mustabbas/TodoList/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 

@@ -1,3 +1,51 @@
 body {
-    background-color: red;
+  background-color: rgb(255, 255, 255);
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  margin: 40px;
+}
+
+i {
+  position: absolute;
+  right: 30px;
+  padding: 5px;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+a {
+  color: black;
+}
+
+.addRow {
+  padding: 0;
+}
+
+.addList {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 0;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.addRow i {
+  position: absolute;
+  right: 30px !important;
+  bottom: 10px !important;
+}
+
+.clear {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(220, 215, 215);
 }
