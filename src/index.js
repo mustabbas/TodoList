@@ -38,7 +38,7 @@ function checkBox() {
   const checkboxAll = document.querySelectorAll('.checkBox');
   for (let i = 0; i < checkboxAll.length; i += 1) {
     // eslint-disable-next-line no-loop-func
-    checkboxAll[i].addEventListener('click', () => { completeTask(checkboxAll[i].value, ListArray); });
+    checkboxAll[i].addEventListener('click', () => { completeTask(checkboxAll[i], ListArray); });
   }
 }
 
