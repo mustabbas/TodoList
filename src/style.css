@@ -49,3 +49,16 @@ a {
   height: 50px;
   background-color: rgb(220, 215, 215);
 }
+
+.display-none {
+  display: none;
+}
+
+.description {
+  width: 96%;
+  border: 0;
+}
+
+.material-icons {
+  color: grey;
+}
