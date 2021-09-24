@@ -54,7 +54,10 @@ export function deleteAllFinishTask() {
   for (let i = 0; i < ListArray.length; i += 1) {
     ListArray[i].id = i;
     ListArray[i].isCompleted = false;
-    document.querySelectorAll('.checkBox').checked = false;
+    const checkbox = document.querySelectorAll('.checkBox');
+    for (let j = 0; j < checkbox.length; j += 1) {
+      checkbox[i].checked = false;
+    }
     saveTolocal();
   }
 }
